@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  background-color: #fff;
+}
+
+.mv {
+  height: 100vh;
+  background-image: url("https://images.unsplash.com/photo-1558788353-f76d92427f16?auto=format&fit=crop&w=1350&q=80");
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding-top: 200px;
+  color: white;
+}
+
+.mv h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.catch {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #ffb6c1;
+  color: white;
+  padding: 15px 40px;
+  text-decoration: none;
+  border-radius: 30px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+/* サービス紹介 */
+.service {
+  padding: 80px 20px;
+  text-align: center;
+  background-color: #fff5f7;
+}
+
+.service h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.service p {
+  font-size: 16px;
+}
